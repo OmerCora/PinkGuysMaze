@@ -1,0 +1,326 @@
+{
+  "title": "GDP Projects",
+
+  "project_setup": {
+    "flock_count": 0,
+
+
+    "curious_count": 0,
+    "angry_count": 0,
+    "average_speed": 6.0,
+    "player_speed": 4.0,
+    "attention_radius": 60.0,
+    "danger_radius": 1.0
+  },
+
+  "camera": {
+    "offset": {
+        "x": 0.0,
+        "y": 9.0,
+        "z": -10.0
+      } 
+  },
+
+  "player": {
+    "object_type": "player",
+    "mesh_name": "raptor",
+    "shader": "default",
+    "position": {
+      "x": 40.0,
+      "y": 10.0,
+      "z": 40.0
+    },
+    "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+    "scale": 2.0,
+    "wireframe": false,
+    "color": {
+      "red": 0.80,
+      "green": 0.0,
+      "blue": 0.80,
+      "alpha": 1.0
+    },
+    "physics": {
+      "enabled": false,
+      "use_spherical_body": false,
+      "velocity": {
+        "x": 5.0,
+        "y": 0.0,
+        "z": 3.0
+      },
+      "acceleration": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+
+  },
+
+  "objects": {
+    "playground": {
+      "object_type": "object",
+      "mesh_name": "no_model",
+      "texture_name_0":  "brick",
+      "position": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": 100.0,
+      "wireframe": false,
+      "color": {
+        "red": 0.3,
+        "green": 1.0,
+        "blue": 0.1,
+        "alpha": 1.0
+      }
+    },
+    "game_object_list": [
+    ]
+  },
+
+
+  "sound": {
+    "stream_sound_list": [
+    ],
+    "sample_sound_list": [
+
+    ]
+  },
+
+  "model_list": [
+    {
+      "name": "isosphere",
+      "path": "resources/ply/mt1/Isoshphere_xyz_InvertedNormals.ply"
+    },
+    {
+      "name": "bunny",
+      "path": "resources/ply/bun_zipper_res3_XYZ.ply"
+    },
+    {
+      "name": "bunny_high",
+      "path": "resources/ply/bun_zipper_highPoly.ply"
+    },
+    {
+      "name": "plane1",
+      "path": "resources/ply/su47_XYZ.ply",
+      "collision_sphere_array": [
+        {
+          "offset_center": {
+            "x": 3.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "radius": 1.0
+        },
+        {
+          "offset_center": {
+            "x": -3.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "radius": 1.0
+        },
+        {
+          "offset_center": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 3.0
+          },
+          "radius": 2.0
+        }
+      ]
+    },
+    {
+      "name": "dolphin",
+      "path": "resources/ply/dolphin.ply"
+    },
+    {
+      "name": "ground",
+      "path": "resources/ply/Ground_XYZ_Rot_Y_is_up.ply"
+    },
+    {
+      "name": "ground2",
+      "path": "resources/ply/Ground_XYZ_LOWER_LEFT_CORNER_ON_ORIGIN.ply"
+    },
+    {
+      "name": "sphere",
+      "path": "resources/ply/Sphere.ply",
+      "shader": "glass"
+    },
+    {
+      "name": "campfire",
+      "path": "resources/ply/campfire2.ply"
+    },
+    {
+      "name": "wolf",
+      "path": "resources/ply/wolf.ply"
+    },
+    {
+      "name": "trees",
+      "path": "resources/ply/Trees.ply"
+    },
+    {
+      "name": "aabb_cube",
+      "path": "resources/ply/Cube_Unit_CornerAtOrigin_N.ply"
+    },
+    {
+      "name": "square_XY",
+      "path": "resources/ply/1x1_2Tri_Quad_1_Sided_XY_Plane.ply"
+    },
+    {
+      "name": "square_XZ",
+      "path": "resources/ply/1x1_2Tri_Quad_1_Sided_XZ_Plane.ply"
+    },
+    {
+      "name": "sphere_nice",
+      "path": "resources/ply/NiceSphere.ply"
+    },
+    {
+      "name": "sphere_nice_inverted_normal",
+      "path": "resources/ply/NicerSphere_inverted_normals.ply"
+    },
+    {
+      "name": "cube_inverted",
+      "path": "resources/ply/Cube_inverted.ply"
+    },
+    {
+      "name": "cube",
+      "path": "resources/ply/cube.ply"
+    },
+    {
+      "name": "cylinder",
+      "path": "resources/ply/cylinder.ply"
+    },
+    {
+      "name": "wheel",
+      "path": "resources/ply/wheel.ply"
+    },
+    {
+      "name": "wall",
+      "path": "resources/ply/wall.ply"
+    },
+    {
+      "name": "screenQuad",
+      "path": "resources/ply/screenQuad.ply"
+    },
+    {
+      "name": "raptor",
+      "path": "resources/ply/Raptor_ASCII.ply",
+      "collision_sphere_array": [
+        {
+          "offset_center": {
+            "x": 1.8,
+            "y": 0.4,
+            "z": -2.0
+          },
+          "radius": 3.4
+        },
+        {
+          "offset_center": {
+            "x": -1.8,
+            "y": 0.4,
+            "z": -2.0
+          },
+          "radius": 3.4
+        },
+        {
+          "offset_center": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 2.8
+          },
+          "radius": 2.5
+        }
+      ]
+    }
+  ],
+
+  "texture_list": [
+    {
+      "name": "pebbles",
+      "path": "pebbles.bmp"
+    },
+    {
+      "name": "brick",
+      "path": "brickTexture_square_1024pixels.bmp"
+    },
+    {
+      "name": "fire",
+      "path": "fire2.bmp"
+    },
+    {
+      "name": "waterfall",
+      "path": "waterfall.bmp"
+    }
+  ],
+
+  "assimp_list": [
+    {
+      "name": "CHAR_IDLE",
+      "path": "RPG-Character@Idle.FBX",
+      "fixRootBone":  false
+    },
+    {
+      "name": "CHAR_WALK_SLOW",
+      "path": "RPG-Character_Unarmed-Walk-Slow(FBX2013).FBX",
+      "fixRootBone": true
+    },
+    {
+      "name": "CHAR_WALK",
+      "path": "RPG-Character_Unarmed-Walk(FBX2013).FBX",
+      "fixRootBone": true
+    },
+    {
+      "name": "CHAR_WALK_BACKWARDS",
+      "path": "RPG-Character@Unarmed-Strafe-Backward.FBX",
+      "fixRootBone": true
+    },
+    {
+      "name": "CHAR_IDLE_COMBAT",
+      "path": "RPG-Character@Unarmed-Idle.FBX",
+      "fixRootBone": false
+    },
+    {
+      "name": "CHAR_CAST_1",
+      "path": "RPG-Character@Unarmed-Cast-L-Attack3.FBX",
+      "fixRootBone": false
+    },
+    {
+      "name": "CHAR_RUN",
+      "path": "RPG-Character_Unarmed-Run(FBX2013).FBX",
+      "fixRootBone": true
+    },
+    {
+      "name": "CHAR_JUMP",
+      "path": "RPG-Character_Unarmed-Jump(FBX2013).FBX",
+      "fixRootBone": false
+    },
+    {
+      "name": "CHAR_FALL",
+      "path": "Fall.FBX",
+      "fixRootBone": false
+    }
+  ],
+  
+  "skybox_textures": {
+    "back": "SpaceBox_back6_negZ.bmp",
+    "bottom": "SpaceBox_bottom4_negY.bmp",
+    "front": "SpaceBox_front5_posZ.bmp",
+    "left": "SpaceBox_left2_negX.bmp",
+    "right": "SpaceBox_right1_posX.bmp",
+    "top": "SpaceBox_top3_posY.bmp"
+  }
+  
+ }
