@@ -18,7 +18,7 @@ int main(void)
 	gelLightManager     ::sharedInstance();
 	GelTextureManager   ::sharedInstance(); //all will look like this 'g' -> 'G'
 	GelCommandManager   ::sharedInstance();
-	GelPhysicsManager	::sharedInstance();
+	GelPhysicsManager   ::sharedInstance();
 	GelCollisionManager ::sharedInstance();
 
 	//Start game loop
